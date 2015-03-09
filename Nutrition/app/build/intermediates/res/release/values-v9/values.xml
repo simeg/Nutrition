@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Simon/Documents/repos/remember/Rem/app/src/main/res/values-v9/themes_nutrientthemenew.xml -->
+    <eat-comment/>
+    <style name="NutrientThemeNew" parent="@style/_NutrientThemeNew">
+
+    <item name="android:textSelectHandleLeft">@drawable/nutrientthemenew_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/nutrientthemenew_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/nutrientthemenew_text_select_handle_middle</item>
+
+  </style>
+</resources>

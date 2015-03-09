@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.nutrition" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/NutrientThemeNew" >
+        <activity
+            android:name="com.example.android.nutrition.activities.MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.example.android.nutrition.sync.RESTService"
+            android:enabled="true"
+            android:label="REST Service" >
+        </service>
+
+        <activity
+            android:name="com.example.android.nutrition.activities.FoodDetailActivity"
+            android:label="@string/title_activity_food_detail" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.nutrition.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.android.nutrition.activities.FavoritesActivity"
+            android:label="@string/title_activity_favorites">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.nutrition.activities.MainActivity" />
+        </activity>
+        <provider
+            android:authorities="com.example.android.nutrition"
+            android:name="com.example.android.nutrition.db.FoodProvider" />
+    </application>
+
+</manifest>

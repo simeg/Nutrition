@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Nutrition</string>
+    <string name="action_favorites">My Favorites</string>
+
+    <!--View titles-->
+    <string name="title_activity_food_detail">Detailed view</string>
+    <string name="title_activity_favorites">My favorites</string>
+
+    <!--Toast-->
+    <string name="favorites_saved">Saved to favorites!</string>
+    <string name="favorites_removes">Removed from favorites!</string>
+
+    <!--Progress bar-->
+    <string name="progress_bar_title">Loading</string>
+    <string name="progress_bar_nutrients">Loading nutrients…</string>
+    <string name="progress_bar_searching">Searching for</string>
+    <string name="progress_bar_dots">…</string>
+
+    <!--Favorite button-->
+    <string name="favorite_btn_add">Add to favorites</string>
+    <string name="favorite_btn_remove">Remove from favorites</string>
+
+    <!--API-->
+    <string name="api_url">http://www.matapi.se/</string>
+    <string name="api_url_search">foodstuff?query=</string>
+    <string name="api_url_search_item">foodstuff/</string>
+    <string name="api_restful">RESTService</string>
+
+    <!--Fragment main-->
+    <string name="fragment_main_search">Search</string>
+    <string name="fragment_main_no_results">The search did not result in any items</string>
+
+    <!--Fragment detail-->
+    <string name="fragment_detail_energy_kj">EnergyKJ:</string>
+    <string name="fragment_detail_energy_kcal">EnergyKcal:</string>
+    <string name="fragment_detail_protein">Protein:</string>
+    <string name="fragment_detail_fat">Fat:</string>
+    <string name="fragment_detail_carbohydrates">Carbohydrates:</string>
+    <string name="fragment_detail_fibres">Fibres:</string>
+    <string name="fragment_detail_salt">Salt:</string>
+    <string name="fragment_detail_water">Water:</string>
+    <string name="fragment_detail_alcohol">Alcohol:</string>
+
+</resources>

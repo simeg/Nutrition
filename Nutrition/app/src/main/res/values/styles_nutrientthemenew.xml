@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="EditTextNutrientThemeNew" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/nutrientthemenew_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="AutoCompleteTextViewNutrientThemeNew" parent="android:Widget.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/nutrientthemenew_list_selector_holo_light</item>
+	  <item name="android:background">@drawable/nutrientthemenew_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ButtonNutrientThemeNew" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/nutrientthemenew_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonNutrientThemeNew" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/nutrientthemenew_btn_default_holo_light</item>
+  </style>
+
+  <style name="ProgressBarNutrientThemeNew" parent="android:Widget.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/nutrientthemenew_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/nutrientthemenew_progress_indeterminate_horizontal_holo_light</item>
+      <item name="android:minHeight">16dip</item>
+      <item name="android:maxHeight">16dip</item>
+  </style>
+
+  <style name="ListViewNutrientThemeNew" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/nutrientthemenew_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewNutrientThemeNew.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/nutrientthemenew_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemNutrientThemeNew" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+</resources>
